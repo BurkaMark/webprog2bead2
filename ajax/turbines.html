@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src = "jquery.min.js"></script>
+        <script type="text/javascript" src = "turbines.js"></script>
+        <title>Turbinák</title>
+    </head>
+    <body>
+        <h1>Turbinák</h1>
+        <div id="infodiv">
+            <label for="countyLabel">Megye</label>
+            <select id="countySelect"></select>
+            <br>
+            <label for="cityLabel">Város</label>
+            <select id="citySelect"></select>
+            <br>
+            <label for="turbineLabel">Turbina azonosító</label>
+            <select id="turbineSelect"></select>
+            
+            <div id="turbinainfo">
+                <span class="label">Darab: </span><span id="quantity" class="data"></span><br>
+                <span class="label">Teljesítmény: </span><span id="performance" class="data"></span><br>
+                <span class="label">Kezdőév: </span><span id="initialYear" class="data"></span><br>
+                <span class="label">Régió: </span><span id="region" class="data"></span><br>
+            </div>
+        </div>
+    </body>
+</html>
